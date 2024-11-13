@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <header>
-      <h1>
+      <h1 style={{color:"green"}}>
         Plantsy
         <span className="logo" role="img">
           🌱
