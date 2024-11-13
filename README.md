@@ -35,6 +35,5 @@ As a user:
    refreshing the page.
 6. I can delete a plant and it is still gone when I refresh the page.
 
-Render Link: https://react-hooks-cc-plantshop-93dh.onrender.com/
+[Render Link](https://react-hooks-cc-plantshop-3-0ir4.onrender.com)
 
-Github Pages Link: https://natasherr.github.io/react-hooks-cc-plantshop/
