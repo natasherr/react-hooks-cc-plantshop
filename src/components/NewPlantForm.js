@@ -22,7 +22,7 @@ function NewPlantForm() {
       })
     }
 
-    fetch("http://localhost:6001/plants", configObj)
+    fetch("https://react-hooks-cc-plantshop-3-0ir4.onrender.com/plants", configObj)
      .then((res)=> res.json())
      .then(()=>{console.log("Successfully added!")
      })

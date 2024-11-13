@@ -14,7 +14,7 @@ export default function Update({plant}){
         }),
       }
 
-      fetch(`http://localhost:6001/plants/${plant.price}`, configObj)
+      fetch(`https://react-hooks-cc-plantshop-3-0ir4.onrender.com/plants/${plant.price}`, configObj)
        .then((res)=> res.json())
        .then(()=>{console.log("Updated!!");
        })

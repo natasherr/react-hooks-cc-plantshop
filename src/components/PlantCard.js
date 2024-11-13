@@ -8,7 +8,7 @@ function PlantCard() {
   const[isInStock] = useState(true)
 
   useEffect(()=>{
-    fetch("http://localhost:6001/plants")
+    fetch("https://react-hooks-cc-plantshop-3-0ir4.onrender.com/plants")
      .then((res)=> res.json())
      .then((mimea)=>
       setPlants(mimea)

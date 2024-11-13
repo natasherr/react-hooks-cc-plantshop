@@ -1,7 +1,7 @@
 export default function Delete({plant}){
 
     function deletePlant(){
-        fetch(`http://localhost:6001/plants/${plant.id}`, {method:"DELETE"})
+        fetch(`https://react-hooks-cc-plantshop-3-0ir4.onrender.com/plants/${plant.id}`, {method:"DELETE"})
          .then((res)=> res.json())
          .then((data)=>{console.log("Deleted!!!");
          })
