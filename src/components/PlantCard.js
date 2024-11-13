@@ -5,7 +5,7 @@ import Update from "./Update";
 
 function PlantCard() {
   const[plants, setPlants]= useState([])
-  const[isInStock, setIsInStock] = useState(true)
+  const[isInStock] = useState(true)
 
   useEffect(()=>{
     fetch("http://localhost:6001/plants")
